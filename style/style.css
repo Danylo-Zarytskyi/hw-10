@@ -1,0 +1,694 @@
+@font-face {
+	font-family: "Montserrat", sans-serif;
+	src: url("../fonts/Montserrat-LightItalic.ttf");
+}
+@font-face {
+	font-family: "NAMU";
+	src: url("../fonts/NAMU-1960.ttf");
+}
+.container {
+	background-color: #dc384e;
+	height: 11000px;	
+}
+body { 
+	margin: 0;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 1160px;
+	height: 132px;
+	margin: 0 auto;
+	padding: 32px 0px;
+	text-align: center;
+}
+.header-text {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 20px 0px;
+}
+.header-text:hover {
+	transition: 0.2s;	 
+	color: yellow;	
+}
+#img {
+	width: 60px;
+	height: 60px;
+}
+.img-2 {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+.main-title {
+	font-family: "NAMU";
+	color: white;
+}
+#bottom-header-title {
+	font-size: 72px;
+	width: 550px;
+	margin-bottom: 40px;
+}
+.hot-heart {
+	width: 1160px;
+	height: 554px;
+	margin: 0 auto;
+	display: flex;
+}
+.left-div-bottom-header {
+	width: 568px;
+	height: 554px;
+}
+.left-div-text {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	font-size: 25px;
+	
+}
+#hero-image {
+	width: 567px;
+	height: 554px;
+}
+.circle {
+	width: 800px;
+	height: 800px;
+	border-radius: 1000px;
+	background-color: #f25570;
+	z-index: -1;
+}
+.left-button {
+	border: 1px solid white;
+	width: 225px;
+	height: 60px;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px 0px;
+	box-sizing: border-box;
+	margin: 40px 30px;
+}
+.left-button:hover {
+	border: 1px solid #f25570;
+	color: white;	
+	background-color: #f25570;
+	transition: 0.3s;
+}
+.right-button {
+	width: 225px;
+	height: 60px;
+	font-family: "Montserrat", sans-serif;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px 0px;
+	box-sizing: border-box;
+	background-color: white;
+	margin: 40px 20px;
+}
+.right-button:hover {
+	border: 1px solid #f25570;
+	background-color: #f25570;
+	transition: 0.3s;
+	
+}
+.button-cont {
+	display: flex;
+	margin: 50px 	0px;
+	height: 60px;
+	
+}
+.work-inner {
+	width: 1160px;
+	height: 312px;
+	font-family: "Montserrat", sans-serif;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.work-inner-h2 {
+	width: 700px;
+	height: 120px;
+	color: white;
+	font-family: "NAMU";
+	font-size: 30px;
+	padding: 100px 400px;
+	font-weight: 100;
+}
+.army-support {
+	width: 312px;
+	height: 312px;
+}
+.header-in-work-inner {
+	font-size: 25px;
+	color: white;
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+#army-support-span {
+	font-size: 17px;
+	color: white;
+	line-height: 140%;
+	font-weight: 100;
+}
+.work-places {
+	width: 312px;
+	height: 312px;
+	
+}
+.economy-support {
+	width: 312px;
+	height: 312px;
+	
+}
+.new-recipe {
+	padding: 300px 0px 100px;
+	margin: 0 auto;
+	width: 1160px;
+	height: 565px;
+	display: flex;
+	justify-content: space-between;
+}
+#recipe {
+	width: 550px;
+	height: 560px;
+}
+.recipe-text {
+	width: 560px;
+	height: 340px;
+}
+#h2-recipe {
+	font-size: 64px;
+	font-family: "NAMU";
+	color: white;
+	font-weight: 100;
+	margin-bottom: 50px; 
+}
+#army-recipe {
+	font-size: 17px;
+	color: white;
+	font-weight: 100;
+	font-family: "Montserrat", sans-serif;
+	line-height: 2;
+}
+.recipe-numbers {
+	margin: 0 auto;
+	width: 830px;
+	height: 780px;
+	font-family: "NAMU";
+}
+.numbers-item {
+	width: 830px;
+	height: 120px;
+	padding: 30px 0px;
+	border-top: 1px solid white;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+}
+.left-text-in-div-numbers-item {
+	font-size: 30px;
+	
+	width: 400px;
+	color: white;
+	height: 80px;
+}
+.right-numbers-in-div-numbers-item {
+	font-size: 74px;
+	color: white;
+	width: 125px;
+	height: 130px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	box-sizing: border-box;
+}
+.text-under-number {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+	
+}
+.header-txt-product {
+	
+}
+.product-div {
+	width: 1160px; 
+	height: 6820px;
+	
+	margin: 0 auto;
+}
+#product-h2 {
+	color: white;
+	font-family: "NAMU";
+	text-align: center;
+	font-size: 64px;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+.product-text {
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.product-text-bottom {
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	width: 510px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+.left-button {
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	color: black;
+	padding: 15px;
+	border: 1px solid white;
+	
+}
+.product-buttons {
+	display: flex;
+	justify-content: center;
+	width: 1160px;
+	height: 60px;
+}
+.right-button {
+	width: 200px;
+	height: 50px;	
+	color: white;
+	padding: 15px;
+	border: 1px solid white;
+	background-color: #dc384e;
+	margin: 40px 0px; 
+}
+.product-columns {
+	width: 1160px;
+	height: 6630px;
+	paddinG: 160px 0px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.left-column {
+	width: 389px;
+	height: 6630px;
+}
+.img-left-column {
+	width: 400px;
+	transform: rotate(-8deg);
+	paddinG: 20px 0px;
+}
+.product-image {
+	width: 400px;
+	height: 400px;
+	border-radius: 1000px;
+	background-color: #f25570;
+	margin-bottom: 10px;
+}
+.product-example {
+	width: 385px;
+	height: 650px;
+	margin-bottom: 120px;
+}
+.item-portion {
+	font-family: "Montserrat", sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #ffe180;
+	margin-bottom: 5px;
+}
+.product-name {
+	font-family: "NAMU";
+	font-size: 35px;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 0;
+}
+.product-description {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	text-align: center;	
+}
+.item-price {
+	font-family: "NAMU";
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+	margin: 0px 20px;
+}
+.buy {
+	height: 46px;
+	display: flex;
+	justify-content: center;
+}
+.right-column {
+	width: 445px;
+	height: 6630px;
+}
+.img-right-column {
+	width: 480px;
+	height: 380px;
+	transform: rotate(8deg);
+	paddiNg: 30px 0px ;
+}
+.big-product-image {
+	width: 490px;
+	height: 490px;
+	background-color: #f25570;
+	border-radius: 1000px;
+}
+.big-product-example {
+	margin-bottom: 120px;
+	margin-top: 100px;
+}
+.reviewes {
+	paddinG: 345px 0px 50px;
+	height: 620px;
+	background-color: white;
+	
+}
+.reviewes-slider {
+	display: flex;
+}
+.header-review {
+	font-size: 64px;
+	font-family: "NAMU";
+	color: black;
+	text-align: center;
+}
+.left-review {
+	width: 400px;
+	height: 140px;
+	box-shadow: 0px 36px 50px 0px #dbdee1;
+	paddinG: 64px 64px 50px 0px;
+	text-align: left;
+	font-family: "Montserrat", sans-serif;
+	color: #c5c5c5;
+	font-size: 18px;
+	font-weight: 100;
+}
+#review-left1 {
+	width: 400px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+}
+.center-review {
+	width: 700px;
+	height: 250px;
+	box-shadow: 0px 36px 50px 0px #dbdee1, 0px 36px 50px 0px #dbdee1;
+	margin: 0px 50px;
+}
+#review-center {
+	font-size: 20px;
+	font-weight: 100;
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+	width: 500px;
+	margin: 80px 100px;
+	height: 80px;
+}
+#review-left {
+	width: 700px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: left;
+	padding: 30px 100px;
+}
+.left-review2 {
+	width: 700px;
+	height: 140px;
+	box-shadow: 0px 36px 50px 0px #dbdee1;
+	paddinG: 64px 64px 50px 0px;
+	text-align: left;
+	font-family: "Montserrat", sans-serif;
+	color: #c5c5c5;
+	font-size: 18px;
+	font-weight: 100;
+}
+.button-slider {
+	height: 165px;
+	padding: 105px 0px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.img-arrow {
+	border-radius: 1000px;
+	width: 60px;
+	height: 60px;
+}
+.img-arrow2 {
+	border-radius: 1000px;
+	transform: rotate(3.142rad);
+	width: 60px;
+	height: 60px;
+}
+.zmi-about-us {
+	width: 1160px;
+	height: 1120px;
+	margin: 0 auto;
+}
+.cont-media {
+	margin: 0 auto;
+}
+.media-item {
+	
+	width: 1160px;
+	height: 1120px;
+	background-color: white;
+	margin: 0 auto;
+}
+#img-zmi {
+	width: 370px;
+	height: 260px;
+	
+}
+.zmi-header-text {
+	font-family: "NAMU";
+	font-size: 64px;
+	font-weight: 100;
+	
+}
+.h3-zmi {
+	font-family: "Montserrat", sans-serif;
+	width: 370px;
+	height: 140px;
+}
+.cont-media {
+	width: 1650px;
+	height: 1120px; 
+	margin: 0;
+}
+@media only screen and (max-width: 1200px) {
+	.work-inner-h2 {
+		width: 700px;
+		height: 120px;
+		color: white;
+		font-family: "NAMU";
+		font-size: 30px;
+		font-weight: 100;
+		padding: 100px 0px;
+		margin: 0px;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.header {
+		display: flex;
+		justify-content: space-between;
+		width: 550px;
+		height: 132px;
+		margin: 0 auto;
+		padding: 32px 0px;
+		text-align: center;
+	}
+	.header-text {
+		font-size: 0px;
+	}
+	.img-2 {
+		margin: 0px 20px;
+	}
+	.hot-heart {
+		width: 1160px;
+		height: 554px;
+		margin: 0 auto;
+		display: block;
+	}
+	.cont-inner {
+		margin: 500px 0px;	
+	}
+	#hero-image {
+		width: 490px;
+		height: 490px;
+	}
+	.work-inner-h2 {
+		width: 500px;
+		height: 200px;
+		color: white;
+		font-family: "NAMU";
+		font-size: 30px;
+		margin: 15px;
+		font-weight: 100;
+	}
+	.work-inner {
+		width: 1160px;
+		height: 312px;
+		font-family: "Montserrat", sans-serif;
+		margin: 20px;
+		display: block;
+		
+	}
+	#army-support-span {
+		font-size: 17px;
+		color: white;
+		line-height: 140%;
+		font-weight: 100;
+		
+	}
+	#recipe {
+		width: 490px;
+		height: 490px;
+	}
+	.numbers-item {
+		width: 490px;
+		height: 120px;
+		padding: 30px 0px;
+		border-top: 1px solid white;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid white;
+	}
+	.left-text-in-div-numbers-item {
+		font-size: 20px;		
+		width: 400px;
+		color: white;
+		height: 80px;
+		padding: 20px;
+	}
+	.right-numbers-in-div-numbers-item {
+		font-size: 50px;
+		color: white;
+		width: 125px;
+		height: 130px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		box-sizing: border-box;
+	}
+	.product-div {
+		width: 550px; 
+		height: 6820px;		
+		margin: 0 auto;
+	}
+	.product-text {
+		color: white;
+		font-family: "Montserrat", sans-serif;
+		font-size: 14px;
+		width: 600px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.product-text-bottom {
+		color: white;
+		font-family: "Montserrat", sans-serif;
+		font-size: 14px;
+		width: 510px;
+		text-align: center;
+		margin: 0 auto;
+		padding: 20px 0px;
+	}
+	.product-buttons {
+		display: flex;
+		justify-content: center;
+		width: 550px;
+		height: 60px;
+	}
+	.product-example {
+		width: 250px;
+		height: 450px;
+		margin-bottom: 120px;
+	}
+	.product-image {
+		width: 220px;
+		height: 220px;
+		border-radius: 1000px;
+		background-color: #f25570;
+		margin-bottom: 10px;
+	}
+	.img-left-column {
+		width: 220px;
+		transform: rotate(-8deg);
+		paddinG: 20px 0px;
+	}
+	.left-column {
+		width: 250px;
+		height: 6630px;
+	}
+	.product-columns {
+		width: 550px;
+		height: 6630px;
+		paddinG: 160px 0px;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.right-column {
+		width: 240px;
+		height: 6630px;
+	}
+	.big-product-image {
+		width: 260px;
+		height: 260px;
+		background-color: #f25570;
+		border-radius: 1000px;
+	}
+	.img-right-column {
+		width: 250px;
+		height: 200px;
+		transform: rotate(8deg);
+		paddiNg: 30px 0px ;
+	}
+	.reviewes-slider {
+		display: block;
+	}
+	.left-review {
+		width: 400px;
+		height: 140px;
+		margin: 0 auto;
+		text-align: left;
+		font-family: "Montserrat", sans-serif;
+		color: #c5c5c5;
+		font-size: 18px;
+		font-weight: 100;
+		text-align: center;
+		padding: 20px;
+	}
+	.center-review {
+		width: 440px;
+		height: 250px;
+		box-shadow: 0px 36px 50px 0px #dbdee1, 0px 36px 50px 0px #dbdee1;
+		margin: 0px 50px;
+		text-align: center;
+	}
+	#review-center {
+		font-size: 20px;
+		font-weight: 100;
+		font-family: "Montserrat", sans-serif;
+		text-align: left;
+		width: 300px;
+		margin: 80px;
+		height: 80px;
+		height: 200px;
+		paddinG: 40px 0px;
+	}
+}
